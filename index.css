@@ -1,0 +1,91 @@
+    h1{
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        text-align: center;
+        margin-bottom:20px;
+    }
+    #button-s{
+        display: flex;
+        justify-content: center;
+    }
+    body{
+        background-color: #5cdb95;
+        border: transparent;
+        margin: 0;
+        padding: 10px;
+        min-width: 500px;
+        
+    
+    }
+    #input-el{
+        margin-bottom: 10px;
+        background-color: #edf5e1;
+        font-weight: 500;
+        border: #edf5e1;
+        border-radius: 4px;
+        color: #05386b;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+        font-size: 16px;
+        box-sizing:border-box;
+        width:100%;
+        padding: 8px 8px 8px 25px;
+        
+    }
+
+    #input-el:focus{
+        outline: none;
+    }
+    #input-btn,#tab-btn,#delete-btn{
+        border-radius: 75px;
+        background-color: #05386b;
+        color: #edf5e1;
+        font-size: medium;
+        border: 4px solid transparent;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 8px 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+    #input-btn:hover,#tab-btn:hover,#delete-btn:hover{
+        border-radius: 75px;
+        color: #edf5e1;
+        background-color: #0b5197;
+        border: 4px solid #0b5197;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 8px 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+    #input-btn:active,#tab-btn:active,#delete-btn:active{
+        border-radius: 75px;
+        color: #edf5e1;
+        background-color: #05386b;
+        border: 4px solid #05386b;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 8px 14px;
+         font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+    ul{
+        line-height: 1.5em; 
+
+    }
+    li{
+        font-family: 'Manrope', sans-serif;
+        font-size: medium;
+        margin-left: -33px;
+        list-style-type: none;
+        line-height: 1.2rem;
+        margin: 0 0 6px 0;
+        
+    }
+    a{
+        text-decoration: none;
+
+    }
